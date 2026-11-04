@@ -20,4 +20,4 @@ Unlike situations where higher-level seL4-related libraries (such as [seL4_libs]
 At boot time, the seL4 kernel and root task are loaded into memory by a kind of bootloader stub referred to as a seL4 kernel loader.
 For Part I, we will use the [kernel loader from the rust-sel4 project](https://github.com/seL4/rust-sel4/tree/v1.0.0/crates/sel4-kernel-loader).
 We won't cover how it works or how to use it explicitly in this text.
-It is built at {{#gh_link docker/Dockerfile:94:108}}, and used at {{#gh_link mk/root-task.mk:31:36}}.
+It is built at {{#gh_link docker/Dockerfile:92:106}}, and used at {{#gh_link mk/root-task.mk:31:36}}.

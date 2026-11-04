@@ -152,7 +152,7 @@ impl This {
     ) -> String {
         let target_suffix = match config {
             "root-task" => "-roottask",
-            "microkit" => "-microkit",
+            "microkit" => "",
             _ => panic!(),
         };
 
