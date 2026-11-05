@@ -22,7 +22,7 @@ index_html := $(build_dir)/index.html
 top_level_dir := ..
 code_dir := $(top_level_dir)/code
 code_gh_url := seL4/seL4-rust-tutorial-code
-manual_url := https://sel4.systems/Info/Docs/seL4-manual-13.0.0.pdf
+manual_url := https://sel4.systems/Info/Docs/seL4-manual-17.0.0.pdf
 
 run_mdbook := \
 	X_PREPROCESSOR_TOP_LEVEL_LOCAL_ROOT=$(abspath $(top_level_dir)) \
